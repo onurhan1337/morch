@@ -13,6 +13,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: "/api/:path*",
+        destination: "https://replicate.com/api/:path*",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
