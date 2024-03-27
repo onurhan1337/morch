@@ -21,9 +21,6 @@ const nextConfig = {
       },
     ];
   },
-  serverless: {
-    timeout: 30,
-  },
 };
 
 export default nextConfig;
